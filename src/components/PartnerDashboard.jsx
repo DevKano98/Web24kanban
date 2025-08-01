@@ -687,7 +687,8 @@ const PartnerDashboard = ({ user, role }) => {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center' }}>
                 {/* Video 1 */}
                 <div>
-                  <h4>Coding Music</h4>
+                  <h4>Why to Choose Us</h4>
+                  <h6>a relaxing video for our partners</h6>
                   <iframe
                     key="video1"
                     width="560"
@@ -702,18 +703,13 @@ const PartnerDashboard = ({ user, role }) => {
                 </div>
                 {/* Video 2 */}
                 <div>
-                  <h4>Nature Sounds</h4>
-                  <iframe
-                    key="video2"
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/UfcAVejslrU?si=Example2"
-                    title="Rain Sounds"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    style={{ maxWidth: '100%' }}
-                  ></iframe>
+                  <h4>Why Choose Web24 Agency?</h4>
+                  <p>
+                    Web24 Agency offers cutting-edge digital solutions tailored to elevate your online presence. 
+                    From sleek websites to robust web applications, we specialize in user-focused, scalable, and 
+                    modern development. Our dedicated team ensures quality delivery, transparency, and long-term results 
+                    for your business growth.
+                  </p>
                 </div>
               </div>
             </div>
